@@ -54,10 +54,10 @@ Load Data → EDA → Visualisation → Train/Test Split → StandardScaler → 
 
 | Metric | Train | Test |
 |---|---|---|
-| R² | ~0.74 | ~0.71 |
-| Adjusted R² | ~0.73 | ~0.69 |
-| MAE | ~3.2 | ~3.5 |
-| RMSE | ~4.7 | ~5.0 |
+| R² | 0.7466 | 0.7122 |
+| Adjusted R² | 0.7369 | 0.6851 |
+| MAE | 3.0899 | 3.8590 |
+| RMSE | 4.3673 | 5.4822 |
 
 > Train and test scores are close, confirming the model is **not overfitting**.
 > Test RMSE of ~5.0 means predictions are off by approximately $5,000 on average.
@@ -87,10 +87,11 @@ Load Data → EDA → Visualisation → Train/Test Split → StandardScaler → 
 ## Project Structure
 
 ```
-boston-house-price/
-├── boston_house_price.py     # Main script
+Boston-house-price-prediction/
+├── BOSTON_FINAL.ipynb     # Main script
 ├── requirements.txt          # Python dependencies
 ├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
@@ -100,14 +101,14 @@ boston-house-price/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/vanshika2003/boston-house-price.git
-cd boston-house-price
+git clone https://github.com/vanshika-data-lab/Boston-house-price-prediction.git
+cd Boston-house-price-prediction
 
 # 2. Install dependencies
 pip install -r requirements.txt
 
 # 3. Run — dataset is loaded automatically from the web
-python boston_house_price.py
+python BOSTON_FINAL.ipynb
 ```
 
 > No dataset download needed — the script loads it directly from GitHub.
@@ -128,5 +129,5 @@ python boston_house_price.py
 ## Author
 
 **Vanshika Aggarwal**
-M.Sc. Data Science — Chandigarh University
-[LinkedIn](https://www.linkedin.com/in/vanshika2003) • [GitHub](https://github.com/vanshika2003)
+
+[LinkedIn](https://www.linkedin.com/in/vanshika2003) 
